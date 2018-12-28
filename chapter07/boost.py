@@ -6,7 +6,6 @@
 
 from numpy import *
 
-
 # 单层决策树生成函数
 def stumpClassify(dataMatrix, dimen, threshVal, threshIneq):
     retArray = ones((shape(dataMatrix)[0], 1))
